@@ -1,0 +1,47 @@
+CADASTRO DE USUARIO 
+Caso de teste 
+
+-ID, Nome, Cpf, Usuário, Senha, Endereço, Obs
+
+ID:
+-CT01 Pode ter 2 ID'S iguais?
+-CT02 Pode criar o ID do usuario? 
+
+Nome:
+-CT03 Pode deixar o nome em branco?
+-CT04 Pode ser apelido?
+-CT05 Pode ser só o nome?
+-CT06 Pode ser só sobrenome? 
+-CT07 Pode ser só nome do meio? 
+-CT08 Pode ser nome em minisculo?
+
+CPF:
+-CT09 O cpf pode ter mais de 11 números 
+-CT10 O cpf pode ter simbolos?
+
+Usuário:
+-CT11 Pode ter dois usuarios iguais?
+-CT12 O nome de usuario pode ter quantos caracteres?
+-CT13 Pode ter número no nome do usuario?
+-CT14 O nome do usuario pode ser diferente do nome?
+
+Senha:
+-CT15 Pode deixar a senha em branco?
+-CT16 A senha pode pode ter só letras minisculas?
+-CT17 A senha pode ter SÓ letra minisculas?
+-CT18 A senha pode ter só letras maiusculas?
+-CT19 A senha pode ter menos de 20 caracteres?
+-CT20 A senha pode não ter número?
+-CT21 A senha pode ter simbolos?
+
+Endereço: 
+-CT22 Pode deixar o campo de endereco em branco?
+-CT23 O endereco pode ter mais de 200 caracteres?
+-CT24 Pode deixar o campo de cep em branco?
+-CT25 Pode deixar o campo bairro em branco 
+
+OBS:
+-CT26 Pode deixar em branco o campo de obs?
+-
+
+

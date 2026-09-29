@@ -1,0 +1,31 @@
+MOVIMENTO DE ENTREGA 
+Caso de teste 
+
+-ID, Entregador, Status, Obs, Endereço, Hora_Saida, ID_Pedido
+
+ID pedido:
+-CT01 Pode ter mais de um ID_Pedido? = Erro: ID já cadastrado 
+
+ID Entregador:
+-CT02 Pode ter mais de um ID cadastrado no entregador? = Erro: ID já cadastrado 
+Entregador: 
+-CT03 (Nome): O entregador pode realizar o cadastro de entregador deixando o campo "Nome", em branco? = Erro: Nome obrigatório
+-CT04 (Nome): O entregadador pode por SÓ o nome no campo "Nome"? = Erro: Preencha o campo com o nome completo
+-CT05 (Nome): O entregadador pode por apelido no campo "Nome"? = Erro: Preencha o campo com o nome completo
+-CT06 (Nome): O entregador pode por só o sobrenome no campo "Nome"? = Preencha o campo com o nome completo
+
+STATUS 
+-CT07 Status do pedido tem que aparecer em tempo real? = obrigatório
+-CT08 É preciso atualizar a hora que o pedido estar em transito? = obrigatório
+-CT09 É preciso confirmaçao de entrega? = obrigatório
+
+ENDEREÇO 
+-CT09 É preciso preencher o campo "Endereço"? = obrigatório
+-CT10 É precico ter CEP no campo "Endereço"? = obrigatório
+-CT11 É preciso ter bairro no campo "Endereço"? = obrigatório
+-CT12 É preciso ter N° no campo "Endereço"? = obrigatório
+
+Hora_Saida
+-CT13 É preciso ter em tempo real a hora da saida? = obrigatório
+-CT14 É preciso ter em 
+
